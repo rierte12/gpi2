@@ -3,13 +3,14 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+<!--
     <parent>
         <artifactId>master</artifactId>
         <groupId>org.sakaiproject</groupId>
         <version>25-SNAPSHOT</version>
         <relativePath>../master/pom.xml</relativePath>
     </parent>
-
+-->
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.sakaiproject</groupId>
     <artifactId>kernel</artifactId>
