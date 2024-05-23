@@ -1,0 +1,458 @@
+org.sakaiproject:kernel:pom:25-SNAPSHOT
++- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:provided
++- jakarta.activation:jakarta.activation-api:jar:1.2.2:provided
++- org.slf4j:slf4j-api:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-api:jar:2.23.0:provided
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.0:provided
++- org.slf4j:jcl-over-slf4j:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-core:jar:2.23.0:provided
++- org.projectlombok:lombok:jar:1.18.32:provided
+\- junit:junit:jar:4.13.2:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+org.sakaiproject.kernel:sakai-component-manager:jar:25-SNAPSHOT
++- javax.servlet:javax.servlet-api:jar:4.0.1:provided
++- org.springframework:spring-core:jar:5.3.34:provided
+|  \- org.springframework:spring-jcl:jar:5.3.34:provided
++- org.springframework:spring-beans:jar:5.3.34:provided
++- org.springframework:spring-context:jar:5.3.34:provided
+|  +- org.springframework:spring-aop:jar:5.3.34:provided
+|  \- org.springframework:spring-expression:jar:5.3.34:provided
++- org.springframework:spring-web:jar:5.3.34:provided
++- org.apache.commons:commons-lang3:jar:3.14.0:provided
++- org.apache.tomcat:tomcat-catalina:jar:9.0.89:provided
+|  +- org.apache.tomcat:tomcat-servlet-api:jar:9.0.89:provided
+|  +- org.apache.tomcat:tomcat-jsp-api:jar:9.0.89:provided
+|  |  \- org.apache.tomcat:tomcat-el-api:jar:9.0.89:provided
+|  +- org.apache.tomcat:tomcat-juli:jar:9.0.89:provided
+|  +- org.apache.tomcat:tomcat-annotations-api:jar:9.0.89:provided
+|  +- org.apache.tomcat:tomcat-api:jar:9.0.89:provided
+|  +- org.apache.tomcat:tomcat-jni:jar:9.0.89:provided
+|  +- org.apache.tomcat:tomcat-coyote:jar:9.0.89:provided
+|  +- org.apache.tomcat:tomcat-util:jar:9.0.89:provided
+|  +- org.apache.tomcat:tomcat-util-scan:jar:9.0.89:provided
+|  \- org.apache.tomcat:tomcat-jaspic-api:jar:9.0.89:provided
++- org.mockito:mockito-core:jar:3.11.2:test
+|  +- net.bytebuddy:byte-buddy:jar:1.14.3:provided
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.11.3:test
+|  \- org.objenesis:objenesis:jar:3.2:test
++- org.assertj:assertj-core:jar:3.23.1:test
++- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:provided
++- jakarta.activation:jakarta.activation-api:jar:1.2.2:provided
++- org.slf4j:slf4j-api:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-api:jar:2.23.0:provided
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.0:provided
++- org.slf4j:jcl-over-slf4j:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-core:jar:2.23.0:provided
++- org.projectlombok:lombok:jar:1.18.32:provided
+\- junit:junit:jar:4.13.2:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+org.sakaiproject.kernel:sakai-kernel-api:jar:25-SNAPSHOT
++- javax.servlet:javax.servlet-api:jar:4.0.1:provided
++- commons-fileupload:commons-fileupload:jar:1.5:provided
+|  \- commons-io:commons-io:jar:2.16.1:provided
++- org.apache.commons:commons-collections4:jar:4.4:provided
++- commons-codec:commons-codec:jar:1.17.0:provided
++- com.zaxxer:HikariCP:jar:5.0.1:provided
++- com.sun.mail:jakarta.mail:jar:1.6.7:provided
+|  \- com.sun.activation:jakarta.activation:jar:1.2.2:provided
++- org.sakaiproject.kernel:sakai-component-manager:jar:25-SNAPSHOT:provided
++- org.springframework:spring-core:jar:5.3.34:provided
+|  \- org.springframework:spring-jcl:jar:5.3.34:provided
++- org.springframework:spring-web:jar:5.3.34:provided
++- org.springframework.data:spring-data-jpa:jar:2.5.12:provided
+|  \- org.aspectj:aspectjrt:jar:1.9.7:provided
++- org.springframework:spring-context-support:jar:5.3.34:provided
++- org.hibernate:hibernate-core:jar:5.6.15.Final:provided
+|  +- org.jboss.logging:jboss-logging:jar:3.4.3.Final:provided
+|  +- javax.persistence:javax.persistence-api:jar:2.2:provided
+|  +- net.bytebuddy:byte-buddy:jar:1.14.3:provided
+|  +- antlr:antlr:jar:2.7.7:provided
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:provided
+|  +- org.jboss:jandex:jar:2.4.3.Final:provided
+|  +- com.fasterxml:classmate:jar:1.5.1:provided
+|  +- javax.activation:javax.activation-api:jar:1.2.0:provided
+|  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:provided
+|  +- javax.xml.bind:jaxb-api:jar:2.3.1:provided
+|  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.6:provided
+|     +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:provided
+|     +- org.glassfish.jaxb:txw2:jar:2.3.6:provided
+|     \- com.sun.istack:istack-commons-runtime:jar:3.0.11:provided
++- org.mockito:mockito-core:jar:3.11.2:test
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.11.3:test
+|  \- org.objenesis:objenesis:jar:3.2:test
++- org.springframework:spring-test:jar:5.3.34:test
++- org.powermock:powermock-module-junit4:jar:2.0.9:test
+|  +- org.powermock:powermock-module-junit4-common:jar:2.0.9:test
+|  |  +- org.powermock:powermock-reflect:jar:2.0.9:test
+|  |  \- org.powermock:powermock-core:jar:2.0.9:test
+|  |     \- org.javassist:javassist:jar:3.27.0-GA:test
+|  \- org.hamcrest:hamcrest-core:jar:1.3:test
++- org.powermock:powermock-api-mockito2:jar:2.0.9:test
+|  \- org.powermock:powermock-api-support:jar:2.0.9:test
++- org.apache.commons:commons-lang3:jar:3.14.0:provided
++- com.fasterxml.jackson.core:jackson-annotations:jar:2.16.1:provided
++- com.fasterxml.jackson.core:jackson-core:jar:2.16.1:provided
++- com.fasterxml.jackson.core:jackson-databind:jar:2.16.1:provided
++- org.simpleframework:simple-xml:jar:2.7.1:provided
+|  +- stax:stax-api:jar:1.0.1:provided
+|  +- stax:stax:jar:1.2.0:provided
+|  \- xpp3:xpp3:jar:1.1.3.3:provided
++- net.sf.ehcache:ehcache-core:jar:2.6.11:provided
++- commons-net:commons-net:jar:3.10.0:provided
++- org.hibernate:hibernate-entitymanager:jar:5.6.15.Final:provided
++- org.apache.ignite:ignite-hibernate-ext:jar:5.3.0:provided
+|  \- org.apache.ignite:ignite-core:jar:2.15.0:provided
+|     +- javax.cache:cache-api:jar:1.1.1:provided
+|     \- org.jetbrains:annotations:jar:16.0.3:provided
++- org.springframework:spring-aop:jar:5.3.34:provided
++- org.springframework:spring-beans:jar:5.3.34:provided
++- org.springframework:spring-context:jar:5.3.34:provided
+|  \- org.springframework:spring-expression:jar:5.3.34:provided
++- org.springframework:spring-orm:jar:5.3.34:provided
+|  \- org.springframework:spring-jdbc:jar:5.3.34:provided
++- org.springframework:spring-tx:jar:5.3.34:provided
++- org.springframework.data:spring-data-commons:jar:2.5.12:provided
++- com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.16.1:provided
+|  \- org.codehaus.woodstox:stax2-api:jar:4.2.1:provided
++- com.fasterxml.woodstox:woodstox-core:jar:6.6.0:provided
++- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.16.1:provided
++- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.16.1:provided
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.16.1:provided
++- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:provided
++- jakarta.activation:jakarta.activation-api:jar:1.2.2:provided
++- org.slf4j:slf4j-api:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-api:jar:2.23.0:provided
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.0:provided
++- org.slf4j:jcl-over-slf4j:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-core:jar:2.23.0:provided
++- org.projectlombok:lombok:jar:1.18.32:provided
+\- junit:junit:jar:4.13.2:test
+org.sakaiproject.kernel:sakai-kernel-util:jar:25-SNAPSHOT
++- org.sakaiproject.kernel:sakai-kernel-api:jar:25-SNAPSHOT:provided
++- org.sakaiproject.kernel:sakai-component-manager:jar:25-SNAPSHOT:provided
++- javax.servlet:javax.servlet-api:jar:4.0.1:provided
++- org.springframework:spring-context:jar:5.3.34:provided
+|  +- org.springframework:spring-aop:jar:5.3.34:provided
+|  +- org.springframework:spring-beans:jar:5.3.34:provided
+|  +- org.springframework:spring-core:jar:5.3.34:provided
+|  |  \- org.springframework:spring-jcl:jar:5.3.34:provided
+|  \- org.springframework:spring-expression:jar:5.3.34:provided
++- org.apache.commons:commons-lang3:jar:3.14.0:provided
++- commons-io:commons-io:jar:2.16.1:provided
++- org.mockito:mockito-core:jar:3.11.2:test
+|  +- net.bytebuddy:byte-buddy:jar:1.14.3:provided
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.11.3:test
+|  \- org.objenesis:objenesis:jar:3.2:test
++- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:provided
++- jakarta.activation:jakarta.activation-api:jar:1.2.2:provided
++- org.slf4j:slf4j-api:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-api:jar:2.23.0:provided
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.0:provided
++- org.slf4j:jcl-over-slf4j:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-core:jar:2.23.0:provided
++- org.projectlombok:lombok:jar:1.18.32:provided
+\- junit:junit:jar:4.13.2:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+org.sakaiproject.kernel:sakai-kernel-storage-util:jar:25-SNAPSHOT
++- org.sakaiproject.kernel:sakai-kernel-api:jar:25-SNAPSHOT:provided
++- org.sakaiproject.kernel:sakai-component-manager:jar:25-SNAPSHOT:provided
++- org.sakaiproject.kernel:sakai-kernel-util:jar:25-SNAPSHOT:compile
++- org.apache.commons:commons-lang3:jar:3.14.0:provided
++- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:provided
++- jakarta.activation:jakarta.activation-api:jar:1.2.2:provided
++- org.slf4j:slf4j-api:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-api:jar:2.23.0:provided
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.0:provided
++- org.slf4j:jcl-over-slf4j:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-core:jar:2.23.0:provided
++- org.projectlombok:lombok:jar:1.18.32:provided
+\- junit:junit:jar:4.13.2:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test
+org.sakaiproject.kernel:sakai-kernel-test:jar:25-SNAPSHOT
++- org.sakaiproject.kernel:sakai-kernel-api:jar:25-SNAPSHOT:provided
++- org.sakaiproject.kernel:sakai-component-manager:jar:25-SNAPSHOT:provided
++- org.hibernate:hibernate-core:jar:5.6.15.Final:provided
+|  +- org.jboss.logging:jboss-logging:jar:3.4.3.Final:provided
+|  +- javax.persistence:javax.persistence-api:jar:2.2:provided
+|  +- net.bytebuddy:byte-buddy:jar:1.14.3:provided
+|  +- antlr:antlr:jar:2.7.7:provided
+|  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:provided
+|  +- org.jboss:jandex:jar:2.4.3.Final:provided
+|  +- com.fasterxml:classmate:jar:1.5.1:provided
+|  +- javax.activation:javax.activation-api:jar:1.2.0:provided
+|  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:provided
+|  +- javax.xml.bind:jaxb-api:jar:2.3.1:provided
+|  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.6:provided
+|     +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:provided
+|     +- org.glassfish.jaxb:txw2:jar:2.3.6:provided
+|     +- com.sun.istack:istack-commons-runtime:jar:3.0.11:provided
+|     \- com.sun.activation:jakarta.activation:jar:1.2.2:provided
++- org.mockito:mockito-core:jar:3.11.2:compile
+|  +- net.bytebuddy:byte-buddy-agent:jar:1.11.3:compile
+|  \- org.objenesis:objenesis:jar:3.2:compile
++- org.springframework:spring-jdbc:jar:5.3.34:provided
+|  +- org.springframework:spring-core:jar:5.3.34:provided
+|  |  \- org.springframework:spring-jcl:jar:5.3.34:provided
+|  \- org.springframework:spring-tx:jar:5.3.34:provided
++- org.springframework:spring-orm:jar:5.3.34:provided
++- org.springframework:spring-context:jar:5.3.34:provided
+|  +- org.springframework:spring-aop:jar:5.3.34:provided
+|  \- org.springframework:spring-expression:jar:5.3.34:provided
++- org.springframework:spring-beans:jar:5.3.34:provided
++- org.springframework:spring-test:jar:5.3.34:compile
++- junit:junit:jar:4.13.2:compile
+|  \- org.hamcrest:hamcrest-core:jar:1.3:compile
++- org.hsqldb:hsqldb:jar:2.7.1:provided
++- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:provided
++- jakarta.activation:jakarta.activation-api:jar:1.2.2:provided
++- org.slf4j:slf4j-api:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-api:jar:2.23.0:provided
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.0:provided
++- org.slf4j:jcl-over-slf4j:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-core:jar:2.23.0:provided
+\- org.projectlombok:lombok:jar:1.18.32:provided
+org.sakaiproject.kernel:sakai-kernel-impl:sakai-component:25-SNAPSHOT
++- org.sakaiproject.kernel:sakai-kernel-api:jar:25-SNAPSHOT:provided
++- org.sakaiproject.kernel:sakai-component-manager:jar:25-SNAPSHOT:provided
++- org.sakaiproject.kernel:sakai-kernel-util:jar:25-SNAPSHOT:compile
++- org.sakaiproject.kernel:sakai-kernel-storage-util:jar:25-SNAPSHOT:provided
++- org.sakaiproject.kernel:sakai-kernel-test:jar:25-SNAPSHOT:test
++- org.apache.tika:tika-core:jar:3.0.0-BETA:compile
++- org.apache.tika:tika-parsers-standard-package:jar:3.0.0-BETA:compile
+|  +- org.apache.tika:tika-parser-apple-module:jar:3.0.0-BETA:compile
+|  |  +- org.apache.tika:tika-parser-zip-commons:jar:3.0.0-BETA:compile
+|  |  \- com.googlecode.plist:dd-plist:jar:1.27:compile
+|  +- org.apache.tika:tika-parser-audiovideo-module:jar:3.0.0-BETA:compile
+|  |  \- com.drewnoakes:metadata-extractor:jar:2.19.0:compile
+|  |     \- com.adobe.xmp:xmpcore:jar:6.1.11:compile
+|  +- org.apache.tika:tika-parser-cad-module:jar:3.0.0-BETA:compile
+|  +- org.apache.tika:tika-parser-code-module:jar:3.0.0-BETA:compile
+|  |  +- org.codelibs:jhighlight:jar:1.1.0:compile
+|  |  +- org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile
+|  |  +- org.ow2.asm:asm:jar:9.6:compile
+|  |  +- com.epam:parso:jar:2.0.14:compile
+|  |  \- org.tallison:jmatio:jar:1.5:compile
+|  +- org.apache.tika:tika-parser-crypto-module:jar:3.0.0-BETA:compile
+|  |  \- org.bouncycastle:bcjmail-jdk18on:jar:1.77:compile
+|  |     +- org.bouncycastle:bcutil-jdk18on:jar:1.77:compile
+|  |     \- org.bouncycastle:bcpkix-jdk18on:jar:1.77:compile
+|  +- org.apache.tika:tika-parser-digest-commons:jar:3.0.0-BETA:compile
+|  +- org.apache.tika:tika-parser-font-module:jar:3.0.0-BETA:compile
+|  |  \- org.apache.pdfbox:fontbox:jar:3.0.1:compile
+|  |     +- org.apache.pdfbox:pdfbox-io:jar:3.0.1:compile
+|  |     \- org.junit.jupiter:junit-jupiter:jar:5.10.1:compile
+|  |        +- org.junit.jupiter:junit-jupiter-api:jar:5.10.1:compile
+|  |        |  +- org.opentest4j:opentest4j:jar:1.3.0:compile
+|  |        |  +- org.junit.platform:junit-platform-commons:jar:1.10.1:compile
+|  |        |  \- org.apiguardian:apiguardian-api:jar:1.1.2:compile
+|  |        +- org.junit.jupiter:junit-jupiter-params:jar:5.10.1:compile
+|  |        \- org.junit.jupiter:junit-jupiter-engine:jar:5.10.1:runtime
+|  |           \- org.junit.platform:junit-platform-engine:jar:1.10.1:runtime
+|  +- org.apache.tika:tika-parser-html-module:jar:3.0.0-BETA:compile
+|  +- org.apache.tika:tika-parser-image-module:jar:3.0.0-BETA:compile
+|  |  +- com.github.jai-imageio:jai-imageio-core:jar:1.4.0:compile
+|  |  \- org.apache.pdfbox:jbig2-imageio:jar:3.0.4:compile
+|  +- org.apache.tika:tika-parser-mail-module:jar:3.0.0-BETA:compile
+|  |  \- org.apache.tika:tika-parser-mail-commons:jar:3.0.0-BETA:compile
+|  |     +- org.apache.james:apache-mime4j-core:jar:0.8.9:compile
+|  |     \- org.apache.james:apache-mime4j-dom:jar:0.8.9:compile
+|  +- org.apache.tika:tika-parser-microsoft-module:jar:3.0.0-BETA:compile
+|  |  +- com.pff:java-libpst:jar:0.9.3:compile
+|  |  +- org.apache.poi:poi:jar:5.2.5:compile
+|  |  |  +- org.apache.commons:commons-math3:jar:3.6.1:provided
+|  |  |  \- com.zaxxer:SparseBitSet:jar:1.3:compile
+|  |  +- org.apache.poi:poi-scratchpad:jar:5.2.5:compile
+|  |  +- org.apache.poi:poi-ooxml:jar:5.2.5:compile
+|  |  |  +- org.apache.poi:poi-ooxml-lite:jar:5.2.5:compile
+|  |  |  +- org.apache.xmlbeans:xmlbeans:jar:5.2.0:compile
+|  |  |  \- com.github.virtuald:curvesapi:jar:1.08:compile
+|  |  +- com.healthmarketscience.jackcess:jackcess:jar:4.0.5:compile
+|  |  \- com.healthmarketscience.jackcess:jackcess-encrypt:jar:4.0.2:compile
+|  +- org.apache.tika:tika-parser-miscoffice-module:jar:3.0.0-BETA:compile
+|  +- org.apache.tika:tika-parser-news-module:jar:3.0.0-BETA:compile
+|  |  \- com.rometools:rome:jar:2.1.0:compile
+|  |     +- com.rometools:rome-utils:jar:2.1.0:compile
+|  |     \- org.jdom:jdom2:jar:2.0.6.1:provided
+|  +- org.apache.tika:tika-parser-ocr-module:jar:3.0.0-BETA:compile
+|  |  \- org.apache.commons:commons-exec:jar:1.3:compile
+|  +- org.apache.tika:tika-parser-pdf-module:jar:3.0.0-BETA:compile
+|  |  +- org.apache.pdfbox:pdfbox:jar:3.0.1:compile
+|  |  +- org.apache.pdfbox:pdfbox-tools:jar:3.0.1:compile
+|  |  |  \- info.picocli:picocli:jar:4.7.5:compile
+|  |  \- org.apache.pdfbox:jempbox:jar:1.8.17:compile
+|  +- org.apache.tika:tika-parser-pkg-module:jar:3.0.0-BETA:compile
+|  |  +- org.tukaani:xz:jar:1.9:compile
+|  |  +- org.brotli:dec:jar:0.1.2:compile
+|  |  \- com.github.junrar:junrar:jar:7.5.5:compile
+|  +- org.apache.tika:tika-parser-text-module:jar:3.0.0-BETA:compile
+|  |  +- com.github.albfernandez:juniversalchardet:jar:2.4.0:compile
+|  |  \- org.apache.commons:commons-csv:jar:1.10.0:compile
+|  +- org.apache.tika:tika-parser-webarchive-module:jar:3.0.0-BETA:compile
+|  |  +- org.netpreserve:jwarc:jar:0.28.3:compile
+|  |  \- org.apache.commons:commons-compress:jar:1.26.1:provided
+|  +- org.apache.tika:tika-parser-xml-module:jar:3.0.0-BETA:compile
+|  +- org.apache.tika:tika-parser-xmp-commons:jar:3.0.0-BETA:compile
+|  |  \- org.apache.pdfbox:xmpbox:jar:3.0.1:compile
+|  +- org.gagravarr:vorbis-java-tika:jar:0.8:compile
+|  \- org.gagravarr:vorbis-java-core:jar:0.8:compile
++- com.vdurmont:emoji-java:jar:5.1.1:compile
+|  \- org.json:json:jar:20170516:compile
++- org.zwobble.mammoth:mammoth:jar:1.4.2:compile
++- commons-codec:commons-codec:jar:1.17.0:provided
++- commons-io:commons-io:jar:2.16.1:provided
++- org.apache.commons:commons-lang3:jar:3.14.0:provided
++- org.apache.commons:commons-text:jar:1.12.0:provided
++- commons-validator:commons-validator:jar:1.7:provided
+|  +- commons-beanutils:commons-beanutils:jar:1.9.4:provided
+|  +- commons-digester:commons-digester:jar:2.1:provided
+|  \- commons-collections:commons-collections:jar:3.2.2:provided
++- org.apache.commons:commons-collections4:jar:4.4:provided
++- org.apache.httpcomponents:httpclient:jar:4.5.14:provided
+|  \- org.apache.httpcomponents:httpcore:jar:4.4.16:provided
++- org.apache.httpcomponents:httpmime:jar:4.5.14:provided
++- com.opencsv:opencsv:jar:5.6:provided
++- org.hsqldb:hsqldb:jar:2.7.1:test
++- javax.servlet:javax.servlet-api:jar:4.0.1:provided
++- org.jvnet.opendmk:jmxremote_optional:jar:1.0_01-ea:provided
++- net.sf.ehcache:ehcache-core:jar:2.6.11:provided
++- org.terracotta:terracotta-toolkit-1.6-runtime:jar:5.9.0:provided
++- net.sf.ehcache:ehcache-terracotta:jar:2.6.11:provided
++- com.hazelcast:hazelcast:jar:3.12.13:provided
++- com.hazelcast:hazelcast-client:jar:3.12.13:provided
++- com.google.guava:guava:jar:31.0.1-jre:compile
+|  +- com.google.guava:failureaccess:jar:1.0.1:compile
+|  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+|  +- org.checkerframework:checker-qual:jar:3.12.0:compile
+|  +- com.google.errorprone:error_prone_annotations:jar:2.7.1:compile
+|  \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
++- com.google.code.findbugs:jsr305:jar:3.0.2:compile
++- org.azeckoski:reflectutils:jar:0.9.19:compile
++- com.sun.mail:jakarta.mail:jar:1.6.7:provided
+|  \- com.sun.activation:jakarta.activation:jar:1.2.2:provided
++- jakarta.activation:jakarta.activation-api:jar:1.2.2:provided
++- org.springframework:spring-core:jar:5.3.34:provided
+|  \- org.springframework:spring-jcl:jar:5.3.34:provided
++- org.springframework:spring-beans:jar:5.3.34:provided
++- org.springframework:spring-context:jar:5.3.34:provided
+|  +- org.springframework:spring-aop:jar:5.3.34:provided
+|  \- org.springframework:spring-expression:jar:5.3.34:provided
++- org.springframework:spring-context-support:jar:5.3.34:provided
++- org.springframework:spring-jdbc:jar:5.3.34:provided
++- org.springframework:spring-orm:jar:5.3.34:provided
++- org.springframework:spring-tx:jar:5.3.34:provided
++- org.springframework.data:spring-data-jpa:jar:2.5.12:provided
+|  \- org.aspectj:aspectjrt:jar:1.9.7:provided
++- org.springframework.data:spring-data-commons:jar:2.4.2:provided
++- org.springframework:spring-test:jar:5.3.34:test
++- org.apache.ignite:ignite-core:jar:2.15.0:provided
+|  +- javax.cache:cache-api:jar:1.1.1:provided
+|  \- org.jetbrains:annotations:jar:16.0.3:provided
++- org.apache.ignite:ignite-spring:jar:2.15.0:provided
++- org.apache.ignite:ignite-spring-cache-ext:jar:1.0.0:provided
+|  \- org.apache.ignite:ignite-spring-data-commons:jar:1.1.0:provided
++- org.apache.ignite:ignite-hibernate-ext:jar:5.3.0:provided
++- org.apache.ignite:ignite-slf4j:jar:2.15.0:provided
++- org.hibernate:hibernate-entitymanager:jar:5.6.15.Final:provided
+|  +- org.jboss.logging:jboss-logging:jar:3.4.3.Final:provided
+|  +- org.hibernate.common:hibernate-commons-annotations:jar:5.1.2.Final:provided
+|  +- javax.persistence:javax.persistence-api:jar:2.2:provided
+|  +- net.bytebuddy:byte-buddy:jar:1.14.3:provided
+|  \- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:provided
++- org.hibernate:hibernate-core:jar:5.6.15.Final:provided
+|  +- antlr:antlr:jar:2.7.7:provided
+|  +- org.jboss:jandex:jar:2.4.3.Final:provided
+|  +- com.fasterxml:classmate:jar:1.5.1:provided
+|  +- javax.activation:javax.activation-api:jar:1.2.0:provided
+|  +- javax.xml.bind:jaxb-api:jar:2.3.1:provided
+|  \- org.glassfish.jaxb:jaxb-runtime:jar:2.3.6:provided
+|     +- jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:provided
+|     +- org.glassfish.jaxb:txw2:jar:2.3.6:provided
+|     \- com.sun.istack:istack-commons-runtime:jar:3.0.11:provided
++- cglib:cglib-nodep:jar:3.3.0:test
++- org.jasypt:jasypt:jar:1.9.3:compile
++- org.owasp.antisamy:antisamy:jar:1.6.8:compile
+|  +- net.sourceforge.htmlunit:neko-htmlunit:jar:2.61.0:compile
+|  +- org.apache.httpcomponents.client5:httpclient5:jar:5.3.1:provided
+|  |  \- org.apache.httpcomponents.core5:httpcore5-h2:jar:5.2.4:provided
+|  +- org.apache.httpcomponents.core5:httpcore5:jar:5.2.3:provided
+|  +- org.apache.xmlgraphics:batik-css:jar:1.14:compile
+|  |  +- org.apache.xmlgraphics:batik-shared-resources:jar:1.14:compile
+|  |  +- org.apache.xmlgraphics:batik-util:jar:1.14:compile
+|  |  |  +- org.apache.xmlgraphics:batik-constants:jar:1.14:compile
+|  |  |  \- org.apache.xmlgraphics:batik-i18n:jar:1.14:compile
+|  |  \- org.apache.xmlgraphics:xmlgraphics-commons:jar:1.5:compile
+|  +- xerces:xercesImpl:jar:2.12.2:provided
+|  +- xml-apis:xml-apis:jar:1.4.01:compile
+|  \- xml-apis:xml-apis-ext:jar:1.3.04:compile
++- org.jsoup:jsoup:jar:1.15.4:compile
++- com.github.davidmoten:subethasmtp:jar:5.2.8:test
+|  +- com.google.code.findbugs:findbugs-annotations:jar:3.0.1:test
+|  \- com.github.davidmoten:guava-mini:jar:0.1.3:test
++- com.carrotsearch:java-sizeof:jar:0.0.5:compile
++- nl.martijndwars:web-push:jar:5.1.1:compile
+|  +- com.beust:jcommander:jar:1.78:compile
+|  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.5:provided
+|  |  \- org.apache.httpcomponents:httpcore-nio:jar:4.4.16:provided
+|  +- org.asynchttpclient:async-http-client:jar:2.10.4:compile
+|  |  +- org.asynchttpclient:async-http-client-netty-utils:jar:2.10.4:compile
+|  |  |  \- io.netty:netty-buffer:jar:4.1.94.Final:provided
+|  |  +- io.netty:netty-codec-http:jar:4.1.94.Final:provided
+|  |  |  +- io.netty:netty-common:jar:4.1.94.Final:provided
+|  |  |  +- io.netty:netty-transport:jar:4.1.94.Final:provided
+|  |  |  \- io.netty:netty-codec:jar:4.1.94.Final:provided
+|  |  +- io.netty:netty-handler:jar:4.1.94.Final:provided
+|  |  |  +- io.netty:netty-resolver:jar:4.1.94.Final:provided
+|  |  |  \- io.netty:netty-transport-native-unix-common:jar:4.1.94.Final:compile
+|  |  +- io.netty:netty-codec-socks:jar:4.1.42.Final:compile
+|  |  +- io.netty:netty-handler-proxy:jar:4.1.42.Final:compile
+|  |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.42.Final:compile
+|  |  +- io.netty:netty-transport-native-kqueue:jar:osx-x86_64:4.1.42.Final:compile
+|  |  +- io.netty:netty-resolver-dns:jar:4.1.42.Final:compile
+|  |  |  \- io.netty:netty-codec-dns:jar:4.1.42.Final:compile
+|  |  +- org.reactivestreams:reactive-streams:jar:1.0.2:compile
+|  |  +- com.typesafe.netty:netty-reactive-streams:jar:2.0.3:compile
+|  |  \- com.sun.activation:javax.activation:jar:1.2.0:compile
+|  \- org.bitbucket.b_c:jose4j:jar:0.7.0:compile
++- org.bouncycastle:bcprov-jdk18on:jar:1.72:compile
++- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.16.1:provided
+|  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.16.1:provided
+|  +- com.fasterxml.jackson.core:jackson-core:jar:2.16.1:provided
+|  \- com.fasterxml.jackson.core:jackson-databind:jar:2.16.1:provided
++- org.jmock:jmock:jar:2.5.1:test
++- org.jmock:jmock-junit4:jar:2.5.1:test
++- org.jmock:jmock-legacy:jar:2.8.4:test
+|  \- org.objenesis:objenesis:jar:2.1:test
++- org.jmock:jmock-junit3:jar:2.5.1:test
++- org.mockito:mockito-core:jar:3.11.2:test
+|  \- net.bytebuddy:byte-buddy-agent:jar:1.11.3:test
++- org.assertj:assertj-core:jar:3.23.1:test
++- org.hamcrest:hamcrest-core:jar:2.2:test
+|  \- org.hamcrest:hamcrest:jar:2.2:test
++- org.hamcrest:hamcrest-library:jar:2.2:test
++- com.zaxxer:HikariCP:jar:5.0.1:test
++- org.passay:passay:jar:1.6.4:compile
++- org.freemarker:freemarker:jar:2.3.32:compile
++- org.simpleframework:simple-xml:jar:2.7.1:provided
+|  +- stax:stax-api:jar:1.0.1:provided
+|  +- stax:stax:jar:1.2.0:provided
+|  \- xpp3:xpp3:jar:1.1.3.3:provided
++- com.googlecode.json-simple:json-simple:jar:1.1.1:provided
++- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:provided
++- org.slf4j:slf4j-api:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-api:jar:2.23.0:provided
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.0:provided
++- org.slf4j:jcl-over-slf4j:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-core:jar:2.23.0:provided
++- org.projectlombok:lombok:jar:1.18.32:provided
+\- junit:junit:jar:4.13.2:test
+org.sakaiproject:base:pom:25-SNAPSHOT
++- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:provided
++- jakarta.activation:jakarta.activation-api:jar:1.2.2:provided
++- org.slf4j:slf4j-api:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-api:jar:2.23.0:provided
++- org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.0:provided
++- org.slf4j:jcl-over-slf4j:jar:1.7.36:provided
++- org.apache.logging.log4j:log4j-core:jar:2.23.0:provided
++- org.projectlombok:lombok:jar:1.18.32:provided
+\- junit:junit:jar:4.13.2:test
+   \- org.hamcrest:hamcrest-core:jar:1.3:test

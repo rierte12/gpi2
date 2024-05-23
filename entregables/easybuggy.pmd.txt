@@ -1,0 +1,69 @@
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/listeners/InitializationListener.java:21:	CloseResource:	Ensure that resources like this PrintStream object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/listeners/InitializationListener.java:22:	CloseResource:	Ensure that resources like this OutputStream object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/listeners/InitializationListener.java:23:	CloseResource:	Ensure that resources like this PrintStream object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/listeners/InitializationListener.java:26:	MissingOverride:	The method 'write(int)' is missing an @Override annotation.
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/listeners/InitializationListener.java:34:	EmptyCatchBlock:	Avoid empty catch blocks
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/servlets/AbstractServlet.java:32:	CloseResource:	Ensure that resources like this PrintWriter object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/servlets/DefaultLoginServlet.java:31:	LooseCoupling:	Avoid using implementation types like 'ConcurrentHashMap'; use the interface instead
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/servlets/DefaultLoginServlet.java:129:	UselessParentheses:	Useless parentheses.
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/servlets/PingServlet.java:20:	CloseResource:	Ensure that resources like this PrintWriter object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/utils/Closer.java:77:	CloseResource:	Ensure that resources like this Closeable object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/utils/EmailUtils.java:30:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+easybuggy/src/main/java/org/t246osslab/easybuggy/core/utils/EmailUtils.java:120:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/errors/ExceptionInInitializerErrorServlet.java:30:	MissingStaticMethodInNonInstantiatableClass:	Class cannot be instantiated and does not provide any static methods or fields
+easybuggy/src/main/java/org/t246osslab/easybuggy/errors/ExceptionInInitializerErrorServlet.java:30:	ClassWithOnlyPrivateConstructorsShouldBeFinal:	This class has only private constructors and may be final
+easybuggy/src/main/java/org/t246osslab/easybuggy/errors/ExceptionInInitializerErrorServlet.java:32:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/errors/OutOfMemoryErrorServlet3.java:24:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Thread': 'sleep' is already in scope
+easybuggy/src/main/java/org/t246osslab/easybuggy/exceptions/ArrayIndexOutOfBoundsExceptionServlet.java:18:	UselessParentheses:	Useless parentheses.
+easybuggy/src/main/java/org/t246osslab/easybuggy/exceptions/BufferOverflowExceptionServlet.java:25:	CloseResource:	Ensure that resources like this RandomAccessFile object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/exceptions/BufferOverflowExceptionServlet.java:29:	CloseResource:	Ensure that resources like this FileChannel object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/exceptions/EmptyStackExceptionServlet.java:19:	LooseCoupling:	Avoid using implementation types like 'Stack'; use the interface instead
+easybuggy/src/main/java/org/t246osslab/easybuggy/exceptions/EmptyStackExceptionServlet.java:22:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/performance/CreatingUnnecessaryObjectsServlet.java:60:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/performance/SlowRegularExpressionServlet.java:42:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/performance/SlowRegularExpressionServlet.java:46:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/performance/StringPlusOperationServlet.java:66:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/performance/StringPlusOperationServlet.java:71:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DBConnectionLeakServlet.java:61:	CloseResource:	Ensure that resources like this Connection object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DBConnectionLeakServlet.java:62:	CloseResource:	Ensure that resources like this Statement object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DBConnectionLeakServlet.java:63:	CloseResource:	Ensure that resources like this ResultSet object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:33:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:76:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:114:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:116:	CloseResource:	Ensure that resources like this Statement object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:117:	CloseResource:	Ensure that resources like this Connection object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:118:	CloseResource:	Ensure that resources like this ResultSet object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:119:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:146:	LooseCoupling:	Avoid using implementation types like 'ArrayList'; use the interface instead
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:148:	CloseResource:	Ensure that resources like this PreparedStatement object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:149:	CloseResource:	Ensure that resources like this Connection object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/DeadlockServlet2.java:162:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/EndlessWaitingServlet.java:78:	CloseResource:	Ensure that resources like this BufferedWriter object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/EndlessWaitingServlet.java:79:	CloseResource:	Ensure that resources like this FileWriter object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/EndlessWaitingServlet.java:82:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/EndlessWaitingServlet.java:85:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/EndlessWaitingServlet.java:111:	UseLocaleWithCaseConversions:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/FileDescriptorLeakServlet.java:33:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/FileDescriptorLeakServlet.java:34:	CloseResource:	Ensure that resources like this OutputStreamWriter object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/FileDescriptorLeakServlet.java:43:	CloseResource:	Ensure that resources like this BufferedReader object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/IntegerOverflowServlet.java:34:	BigIntegerInstantiation:	Don't create instances of already existing BigInteger and BigDecimal (ZERO, ONE, TEN)
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/JVMCrashByEAVServlet.java:31:	AvoidAccessibilityAlteration:	You should not modify visibility of constructors, methods or fields using setAccessible()
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/MemoryLeakServlet.java:23:	LooseCoupling:	Avoid using implementation types like 'HashMap'; use the interface instead
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/ThreadLeakServlet.java:53:	UnnecessaryFullyQualifiedName:	Unnecessary qualifier 'Thread': 'sleep' is already in scope
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/ThreadLeakServlet.java:55:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/troubles/ThreadLeakServlet.java:56:	EmptyCatchBlock:	Avoid empty catch blocks
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/MailHeaderInjectionServlet.java:134:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/MailHeaderInjectionServlet.java:135:	CloseResource:	Ensure that resources like this FileOutputStream object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/MailHeaderInjectionServlet.java:136:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/MailHeaderInjectionServlet.java:166:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/NullByteInjectionServlet.java:27:	CloseResource:	Ensure that resources like this InputStream object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/NullByteInjectionServlet.java:51:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/SQLInjectionServlet.java:62:	CloseResource:	Ensure that resources like this Connection object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/SQLInjectionServlet.java:63:	CloseResource:	Ensure that resources like this Statement object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/SQLInjectionServlet.java:64:	CloseResource:	Ensure that resources like this ResultSet object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/UnrestrictedExtensionUploadServlet.java:112:	GuardLogStatement:	Logger calls should be surrounded by log level guards.
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/XEEandXXEServlet.java:219:	AvoidStringBufferField:	StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/XEEandXXEServlet.java:280:	CloseResource:	Ensure that resources like this PreparedStatement object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/XEEandXXEServlet.java:281:	CloseResource:	Ensure that resources like this PreparedStatement object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/XEEandXXEServlet.java:282:	CloseResource:	Ensure that resources like this ResultSet object are closed after use
+easybuggy/src/main/java/org/t246osslab/easybuggy/vulnerabilities/XEEandXXEServlet.java:283:	CloseResource:	Ensure that resources like this Connection object are closed after use
